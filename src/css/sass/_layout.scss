@@ -1,7 +1,7 @@
 header {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 24px;
+  padding: 8px 24px;
 }
 .flex {
   display: flex;
@@ -14,6 +14,7 @@ header {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 8px 24px;
 }
 .border {
   border: 1px solid red;
@@ -47,4 +48,16 @@ a {
   border-radius: 4px;
   color: $white-light;
   padding: 8px;
+}
+.img-profile {
+  width: 56px;
+  height: 56px;
+  background-color: $gray-2;
+  border-radius: 50%;
+}
+.container-posts {
+  display: flex;
+}
+.post{
+  margin-left: ;
 }
