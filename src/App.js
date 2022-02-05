@@ -1,10 +1,10 @@
 import Header from './components/Header';
-import Main from './page/main/index';
+import Rota from './routes';
 function App() {
   return (
     <>
       <Header />
-      <Main />
+      <Rota />
     </>
   );
 }
